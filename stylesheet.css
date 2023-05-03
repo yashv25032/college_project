@@ -1,0 +1,599 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(30, 93, 5);
+    margin:0px auto ;
+  
+}
+
+.wrapper .nav ul{
+    list-style-type: none;
+    margin-left: 4.5%;
+
+}
+
+.wrapper .nav ul li{
+    float: left;
+    width: 12%;
+    text-align: center;
+    
+}
+.wrapper .nav ul li a{
+    text-decoration: none;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.wrapper .nav ul li ul li{
+    width: 135px;
+    background-color: rgb(30, 93, 5);
+    border: 1px solid #fff;
+
+}
+
+.wrapper .nav ul li ul{
+    display: none;
+}
+
+.wrapper .nav ul li:hover  ul{
+    display: block;
+    position: absolute;
+    
+}
+
+.wrapper .nav ul li a:hover{
+    color: red;
+}
+
+header .banner{
+    background: url(./img/cambridge.avif) no-repeat center/cover;
+    height: 100vh;
+    /* opacity: 0.6; */
+    
+   
+}
+
+.banner .banner-content{
+    display: inline-flex;
+    margin: 15% 0% 0% 22%;
+    width: 60%; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    
+}
+
+.banner .banner-content .banner-text span{
+    font-size: 35px;
+}
+
+.banner .banner-content .banner-text p{
+    margin-left: 3px;
+}
+.banner .banner-content .banner-text .banner-para1{
+    margin-left: 180px
+}
+.banner .banner-content .banner-text .banner-para2{
+    margin-left: 160px;
+}
+.banner .banner-content .banner-text .banner-para3{
+    margin-left: 160px; 
+    color: #fd0606;
+}
+.banner .banner-content .banner-text .banner-para4{
+    margin-left: 150px; 
+    color: #0000ff;
+}
+
+.banner .banner-content .banner-img{
+    margin-top: 15px;
+}
+
+.banner .banner-content .banner-text{
+   width:90%;
+   margin-left: 10px;
+   color: #000;
+   font-weight: bolder;
+}
+
+/* MAIN */
+
+main .main{
+    width: 100%;
+    /* background-color:aqua ; */
+}
+
+.main .details{
+    display: flex;
+    justify-content: center;
+}
+.main .details .details-card{
+    width: 30%;
+    margin-top: 2% ;
+    text-align: center;
+}
+.main .details .details-card i{
+    font-size: 60px;
+    color: rgb(163, 33, 33);
+
+}
+.main .details .details-card p{
+    font:25px bolder;
+    margin-top: 2%;
+    color: rgb(163, 33, 33);
+}
+
+
+/* card */
+.main .product{
+    display: flex;
+    justify-content: center;
+    margin-left: 4%;
+    
+}  
+
+.main .product .list-product{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    /* border: 2px solid black; */
+    border-bottom: 10px solid blue;
+        
+}
+
+.main .product .list-product .card-img{
+    width: 220px;
+    height: 200px;
+}
+
+.main .product .list-product .card-img img{
+    width: 362px;
+    height: 300px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+.main .product .list-product .card-text{
+    margin-top:30% ;
+}
+.main .product .list-product .card-text li{
+    color: grey;
+    text-align: justify;
+}
+
+/* title */
+.main .title-head{
+    height: 80px;
+    background-color: #bbb9b9;
+    text-align: center;
+    margin-top:3%;
+
+}
+
+
+ main .main .title-head .title-text p{
+    padding-top: 1%;
+    font:40px bolder;
+    color: brown;
+}
+
+main .main .depart-container{
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+main .main .depart-container .depart-info{
+    display: flex;
+    justify-content: center;
+}
+
+main .main .depart-container .depart-info .depart{
+    height: 120px;
+    width: 150px;
+    background-color: #a89d9d;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+main .main .depart-container .depart-info .depart i{
+    font-size: 40px;
+    margin-top: 20px;
+    color: white;
+}
+main .main .depart-container .depart-info .depart-box1{
+    background-color: rgb(231, 38, 38);
+}
+main .main .depart-container .depart-info .depart-box1:hover{
+    box-shadow: 2px 2px 2px 2px rgb(248, 55, 55);
+}
+main .main .depart-container .depart-info .depart-box2{
+    background-color: rgb(241, 220, 58);
+}
+main .main .depart-container .depart-info .depart-box2:hover{
+    box-shadow: 2px 2px 2px 2px rgb(241, 220, 58);
+}
+main .main .depart-container .depart-info .depart-box3{
+    background-color: rgb(96, 231, 38);
+}
+main .main .depart-container .depart-info .depart-box3:hover{
+    box-shadow: 2px 2px 2px 2px rgb(96, 231, 38);
+}
+main .main .depart-container .depart-info .depart-box4{
+    background-color: rgb(38, 231, 167);
+}
+main .main .depart-container .depart-info .depart-box4:hover{
+    box-shadow: 2px 2px 2px 2px rgb(38, 231, 167);
+}
+main .main .depart-container .depart-info .depart-box5{
+    background-color: rgb(1, 215, 248);
+}
+main .main .depart-container .depart-info .depart-box5:hover{
+    box-shadow: 2px 2px 2px 2px rgb(38, 231, 167);
+}
+main .main .depart-container .depart-info .depart-box6{
+    background-color: rgb(25, 8, 134);
+}
+main .main .depart-container .depart-info .depart-box6:hover{
+    box-shadow: 2px 2px 2px 2px rgb(25, 8, 134);
+}
+main .main .depart-container .depart-info .depart-box7{
+    background-color: rgb(84, 16, 172);
+}
+main .main .depart-container .depart-info .depart-box7:hover{
+    box-shadow: 2px 2px 2px 2px rgb(84, 16, 172);
+}
+main .main .depart-container .depart-info .depart-box8{
+    background-color: rgb(133, 11, 97);
+}
+main .main .depart-container .depart-info .depart-box8:hover{
+    box-shadow: 2px 2px 2px 2px rgb(133, 11, 97);
+}
+
+main .main .main-notice{
+    display: flex;
+    justify-content: center;
+    
+}
+
+main .main .main-notice .notice-mark{
+    width: 45%;
+    background-color: #a8ffeb;
+    margin-right: 3px;
+}
+main .main .main-notice .notice-image{
+    width: 45%;
+    /* background-color: #e00303; */
+}
+main .main .title-page{
+    width: 100%;
+    
+}
+main .main .title-page .page-text{
+    font-size: large;
+    
+}
+
+main .main .main-notice .notice-mark .mark p{
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+    background-color: #e9e5e5;
+    font-weight: 600;
+
+}
+
+main .main .main-notice .notice-mark .mark marquee{
+    margin-left: 10%;
+    font-size:medium;
+}
+main .main .main-notice .notice-mark .mark marquee a{
+    text-decoration: none;
+    padding: 2px;
+    color:#000;
+}
+
+main .main .main-notice .notice-mark .mark marquee a:hover{
+    text-decoration: underline;
+    color: #e00303;
+}
+main .main .main-notice .notice-image .main-notice-content .notice-main p{
+    font-size: 20px;
+    line-height: 95px; 
+    font-weight: 500;
+    color: #fff;
+    padding-left: 10%;
+}
+main .main .main-notice .notice-image .main-notice-content .notice-main{
+    display: flex;
+    width:100%;
+    height: 110px;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+
+main .main .main-notice .notice-image .main-notice-content .notice-color1{
+    background-color: rgb(208, 48, 48);
+}
+main .main .main-notice .notice-image .main-notice-content .notice-color2{
+    background-color: rgb(202, 176, 81);
+}
+main .main .main-notice .notice-image .main-notice-content .notice-color3{
+    background-color: rgb(121, 222, 49);
+}
+main .main .main-notice .notice-image .main-notice-content .notice-color4{
+    background-color: rgb(69, 137, 204);
+}
+
+
+main .main .main-notice .notice-image .main-notice-content .notice-main .notice-font{
+    margin-left: -7%;
+    margin-top: 3%;
+}
+main .main .main-notice .notice-image .main-notice-content .notice-main .notice-font i{
+    font-size: 60px;
+}
+main .main .main-notice .notice-image .main-notice-content .notice-color4 .notice-font i{
+    font-size: 60px;
+    margin-left: 10%;
+}
+
+/* about */
+.main .row{
+    display: flex;
+    margin: 1% 2% 0% 2%;
+    background-color: #f0eded;
+}
+.main .row .col{
+    width: 50%;
+    margin: 10px;
+    background-color: #f0eded;
+}
+.main .row .col img{
+    width: 100%;
+}
+
+/* head-image */
+.carousel img{
+    width: 99.9%;
+}
+
+/* Notice page */
+
+.main .notice-content .notice-list{
+    margin: 2% 10% 0% 10%;
+    justify-content: center;
+    display: block;
+
+}
+
+.main .notice-content .notice-list .notice{
+    background-color: #bbb9b9;
+    height: 100px;
+    width: 990px;
+    margin: 10px;
+    display: flex;
+}
+
+.main .notice-content .notice-list .notice i{
+    font-size: 70px;
+    margin: 7px;
+}
+
+.main .notice-content .notice-list .notice-text span button{
+    height: 25px;
+    width: 100px;
+    background-color: #222121;
+    color: #fff;
+   
+}
+.main .notice-content .notice-list .notice-text span button i{
+   font-size: 10px;
+}
+
+/* Department paages*/
+
+.main .depart-content{
+    /* background-color: rgb(122, 122, 123); */
+    border: 2px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+}
+.main .depart-content .depart{
+    margin:0% 0% 0% 7% ;
+    display: flex;
+    
+}
+.main .depart-content .depart-box{
+    height: 90px;
+    width: 300px;
+    background-color: #292828;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+/* Staff pages */
+
+.main .staff-details{
+    display: flex;
+    justify-content: center;
+}
+
+.main .staff-details .staff-batch{
+    width: 20%;
+    text-align: center;
+    /* background: linear-gradient(to bottom, #6600cc 0%, #ff99cc 100%); */
+    background-color: rgb(191, 224, 254);
+    
+}
+
+.main .staff-details .staff-img{
+    width: 80%;
+}
+
+.main .staff-details .staff-batch button{
+    height: 80px;
+    width: 245px;
+    margin-top: 12%;
+    border: none;
+    background-color: #ee7474;
+    color: black;
+
+}
+.main .staff-details .staff-batch a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main .staff-details .staff-img .staff{
+    display: flex;
+    justify-content: center;
+
+}
+
+.main .staff-details .staff-img .staff-box{
+    width: 40%;
+    /* background-color: blueviolet; */
+    box-shadow: 5px 10px 8px #a89d9d;
+    height: 300px;
+    margin: 5px;
+}
+
+.main .staff-details .staff-img .staff-box img{
+    width: 100%;
+    height: 220px;
+    
+}
+
+.main .staff-details .staff-img .staff-box .staff-text{
+    margin-top: 5%;
+    text-align: center;
+    background-color: rgb(86, 147, 253);
+}
+
+.main .staff-details .staff-img .staff-box .staff-text p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #000;
+
+}
+
+
+
+/* Principal pages */
+
+.main .principal-structure{
+    /* background-color: aqua; */
+    margin: 2% 10% 0% 10% ;
+}
+.main .principal-structure .principal-head{
+    text-align: justify;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.main .principal-structure .principal-head .principal-box{
+    width: 400px;
+    height: 300px;
+    background-color: #000;
+    margin:2% 5% 0% 25%;
+    border-radius: 20px;
+
+}
+.main .principal-structure .principal-head .principal-box img{
+    width: 450px;
+    border-radius: 20px;
+   border: 2px solid black ;
+}
+
+.main .principal-structure .principal-head .principal-text{
+    width: 70%;
+    margin: 3% 0% 0% 15%;
+}
+
+.main .principal-structure .principal-head .principal-text p i{
+    font-size: 20px;
+
+}
+
+.main .principal-structure .principal-head .principal-text p .principal-quotes{
+    font-size: 30px;
+    color:rgb(38, 3, 74);
+}
+/* FOOTER */
+
+footer .foot .foot-set{
+    display: flex;
+    background-color: rgb(75, 75, 74);
+    height: 60vh;
+   
+}
+
+.foot  .foot-content{
+    /* margin-left: 40px; */
+    width: 20%;
+    margin-top: 2%;
+    
+}
+.foot .foot-details{
+    margin-left: 40px;
+    width: 40%;
+    margin-top: 6%;
+    
+}
+.foot .foot-details h3{
+    font-size: 22px;
+   
+}
+.foot .foot-details div p{
+    margin-left: 60px;
+   
+}
+.foot .foot-details div .foot-para1{
+    margin-left: 60px;
+    color:#e00303;
+}
+.foot .foot-details div .foot-para2{
+    margin-left: 50px;
+    color:#0000ff;
+    
+}
+
+.foot .foot-details .img{
+    margin-left: 120px;
+}
+.foot .foot-set .foot-content div{
+    text-decoration: none;
+    color:#fff;
+    margin: 2px;
+}    
+.foot .foot-set .foot-content div a{
+    text-decoration: none;
+    color:#fff;
+    
+}    
+.foot .foot-set .foot-content span{
+    color: #000;
+    border-bottom: 5px solid blue;
+        
+}    
+
+.foot .footer-link{
+    text-align: center;
+    background-color:rgb(51, 51, 50) ;
+    padding: 15px;
+}
